@@ -1,0 +1,23 @@
+name: baukultur_vpr
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pytorch
+  - torchvision
+  - pytorch-cuda=12.4
+  - numpy
+  - pandas
+  - geopandas
+  - shapely
+  - requests
+  - aiohttp
+  - webdataset
+  - pip
+  - pip:
+    - xformers
+    - wandb
+    - h3
+    - flash-attn
